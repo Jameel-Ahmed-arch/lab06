@@ -6,7 +6,7 @@ class Program
     {
         // Declare an array of strings to store grocery items
         string[] groceryItems = { "Milk", "Bread", "Eggs", "Apples", "Rice" };
-
+         milk , bread;
         // Print the list of grocery items
         Console.WriteLine("Grocery List:");
         for (int i = 0; i < groceryItems.Length; i++)
