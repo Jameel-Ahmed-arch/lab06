@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare an array of strings to store grocery items
+        string[] groceryItems = { "Milk", "Bread", "Eggs", "Apples", "Rice" };
+
+        // Print the list of grocery items
+        Console.WriteLine("Grocery List:");
+        for (int i = 0; i < groceryItems.Length; i++)
+        {
+            Console.WriteLine($"{i + 1}. {groceryItems[i]}");
+        }
+    }
+}
+
+    
